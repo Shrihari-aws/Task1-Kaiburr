@@ -36,3 +36,13 @@ Prerequisites:
 
 To run the Application:
 ./mvnw spring-boot
+
+Reference to screenshots:
+
+1. Create Task - Create New Task.png 
+2. Get a Task - Get Task.png
+3. Get Task using Name - Get Task by Name.png
+4. Delete - Delete Task by ID.png
+5. Execute - Execute Task.png
+6. 404 If nothing found - Exception.png
+
