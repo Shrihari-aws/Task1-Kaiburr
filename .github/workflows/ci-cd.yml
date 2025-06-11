@@ -18,8 +18,12 @@ jobs:
         java-version: '17'
         distribution: 'temurin'
 
+    - name: Give mvnw execute permission
+      run: chmod +x ./mvnw
+
     - name: Build with Maven Wrapper
       run: ./mvnw clean package
+
 
     - name: Log in to DockerHub
       uses: docker/login-action@v3
